@@ -6,6 +6,6 @@ npm run serve
 ```
 
 ## 工厂模式 
-示例
+[介绍](https://blog.songdonghong.com/2020/04/17/blog2020-04-17/)
 http://localhost:8080/#/factory
 
