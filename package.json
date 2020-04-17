@@ -1,0 +1,51 @@
+{
+  "name": "blog-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build:online": "cross-env APP_NS=online vue-cli-service build --dest dist/online --mode online --modern",
+    "build:sandbox": "cross-env APP_NS=sandbox vue-cli-service build --dest dist/sandbox --mode sandbox --modern",
+    "build:test": "cross-env APP_NS=test vue-cli-service build --dest dist/test --mode test --modern"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "keymirror": "^0.1.1",
+    "lodash": "^4.17.10",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/webpack-chain": "^4.8.1",
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "express": "^4.16.4",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^8.1.5",
+    "mocker-api": "^1.6.6",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.13.1",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
