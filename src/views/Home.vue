@@ -3,6 +3,7 @@
     <a href="#/bottom2">bottom2</a>
      <a href="#/djx">对角线</a>
      <a href="#/factory">工厂模式</a>
+     <a href="#/cssGrid">grid网格</a>
      
   </div>
 </template>

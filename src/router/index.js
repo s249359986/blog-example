@@ -4,10 +4,16 @@ import Home from '../views/Home.vue'
 import Bottom from '../views/Bottom.vue'
 import Bottom2 from '../views/Bottom2.vue'
 import factory from '../views/factory.vue'
+import cssGrid from '../views/css-grid.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/cssGrid',
+    name: 'cssGrid',
+    component: cssGrid
+  },
   {
     path: '/factory',
     name: 'factory',
