@@ -7,6 +7,7 @@
     <a href="#/factory">工厂模式</a>
     <a href="#/cssGrid">grid网格</a>
     <a href="#/qcode">二维码</a>
+    <a href="#/type">typeof 和 instanceof</a>
   </div>
 </template>
 

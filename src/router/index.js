@@ -6,10 +6,16 @@ import Bottom2 from '../views/Bottom2.vue'
 import factory from '../views/factory.vue'
 import cssGrid from '../views/css-grid.vue'
 import qcode from '../views/qcode.vue'
+import type from '../views/type.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/type',
+    name: 'type',
+    component: type
+  },
   {
     path: '/qcode',
     name: 'qcode',
