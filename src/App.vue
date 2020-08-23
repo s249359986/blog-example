@@ -6,6 +6,7 @@
 
 <style>
 html,body,#app{
+  -webkit-overflow-scrolling: touch;
   height: 100%;
   text-align: center;
 }

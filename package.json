@@ -11,6 +11,7 @@
     "build:test": "cross-env APP_NS=test vue-cli-service build --dest dist/test --mode test --modern"
   },
   "dependencies": {
+    "@nuintun/qrcode": "^2.1.0",
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
     "keymirror": "^0.1.1",
@@ -39,8 +40,7 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "gitHooks": {    
   },
   "lint-staged": {
     "*.{js,vue}": [

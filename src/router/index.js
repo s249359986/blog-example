@@ -5,10 +5,16 @@ import Bottom from '../views/Bottom.vue'
 import Bottom2 from '../views/Bottom2.vue'
 import factory from '../views/factory.vue'
 import cssGrid from '../views/css-grid.vue'
+import qcode from '../views/qcode.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/qcode',
+    name: 'qcode',
+    component: qcode
+  },
   {
     path: '/cssGrid',
     name: 'cssGrid',

@@ -17,6 +17,6 @@ module.exports = {
       }
     },
     mock:false,
-    allowedHosts: ['.djtest.cn'],
+    allowedHosts: ['.songdonghong.com'],
   }
 }

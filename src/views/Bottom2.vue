@@ -17,16 +17,26 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  data () {
+  data() {
     return {
 
     }
+  },
+  created() {
+    // window.addEventListener('touchmove', function (event) {
+    //   event.preventDefault()
+    // }, { passive: false })
   },
   components: {
     HelloWorld
   }
 }
 </script>
+<style lang="less">
+// body {
+//   overscroll-behavior: none;
+// }
+</style>
 <style scoped lang="less">
 .home {
   display: flex;
