@@ -35,7 +35,7 @@
     "lint-staged": "^8.1.5",
     "mocker-api": "^1.6.6",
     "mockjs": "^1.0.1-beta3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-px2rem": "^0.3.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
